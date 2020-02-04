@@ -1,12 +1,27 @@
 {
   "name": "gridsome-plugin-statickit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "main": "gridsome.client.js",
+  "scripts": {},
+  "files": [
+    "gridsome.client.js"
+  ],
+  "keywords": [
+    "gridsome",
+    "statickit"
+  ],
+  "author": "Brandon Pittman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonpittman/gridsome-plugin-statickit.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/brandonpittman/gridsome-plugin-statickit/issues"
+  },
+  "homepage": "https://github.com/brandonpittman/gridsome-plugin-statickit#readme",
+  "description": "",
+  "dependencies": {
+    "@statickit/html": "^1.2.0"
+  }
 }
