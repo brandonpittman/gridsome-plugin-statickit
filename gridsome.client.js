@@ -1,4 +1,4 @@
-export default function (Vue, options, {head, isClient}) {
+export default function (Vue, options, {isClient}) {
   const {site} = options
 
   Vue.prototype.$createStatickitForm = function () {}
@@ -6,6 +6,7 @@ export default function (Vue, options, {head, isClient}) {
   if (isClient) {
     Vue.prototype.$createStatickitForm = function (fnOptions) {
       const sk = require('@statickit/html').default
+
       sk('form', 'init', {
         site,
         ...fnOptions
