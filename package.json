@@ -22,6 +22,7 @@
   "homepage": "https://github.com/brandonpittman/gridsome-plugin-statickit#readme",
   "description": "",
   "dependencies": {
+    "@statickit/core": "^2.2.0",
     "@statickit/html": "^1.2.0"
   }
 }
